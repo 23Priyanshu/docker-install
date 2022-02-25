@@ -3,7 +3,7 @@
 
 ### Quick Install
 ```bash
-curl https://raw.githubusercontent.com/ShubhamTatvamasi/docker-install/master/docker-install.sh | sh
+curl https://raw.githubusercontent.com/ShubhamTatvamasi/docker-install/master/docker-install.sh | bash
 ```
 ---
 
