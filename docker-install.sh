@@ -12,7 +12,7 @@ sudo apt install -y \
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
-if [ "$(uname -m)" -eq "aarch64" ]; then
+if [ "$(uname -m)" == "aarch64" ]; then
   CPU_ARCH=arm64
 else
   CPU_ARCH=amd64
